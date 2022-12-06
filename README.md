@@ -1,6 +1,10 @@
 # Swayam Sahoo
 I'm a Swayam, I live in India. I like to code, study listen music & draw!
 
+- Love to code & code.
+- A student.
+- Bio & Computer Lover.
+
 ### 📫 Officials
 - Official Username: `Swayam25` / `swayam25`
 - [Discord](https://discord.com/channels/@me)
