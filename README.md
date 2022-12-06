@@ -1,5 +1,5 @@
 # Swayam Sahoo
-I'm a high-school student who lives in India. I like to code, study, listen music, draw & to watch anime. Current I'm focused on A.I & On my studies.
+I'm a Swayam, I live in India. I like to code, study listen music & draw!
 
 ### 📫 Officials
 - Official Username: `Swayam25` / `swayam25`
