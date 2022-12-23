@@ -1,5 +1,5 @@
 # Swayam Sahoo
-I'm a Swayam, I live in India. I like to code, study listen music & draw!
+Hi 👋🏻, I'm a Swayam. Proudly Indian!
 
 - Love to code & code.
 - A student.
