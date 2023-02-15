@@ -3,7 +3,7 @@ Hi 👋🏻, I'm a Swayam. Proudly Indian!
 
 - Love to code & code.
 - A student.
-- Bio & Computer Lover.
+- Study Lover.
 
 ### 📫 Officials
 [![Github](https://img.shields.io/badge/github-github?color=161b22&style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Swayam25)
