@@ -1,5 +1,5 @@
 # Swayam Sahoo
-Hi 👋🏻, I'm a Swayam. Proudly Indian!
+Hi 👋🏻, I'm a Swayam
 
 - Love to code & code.
 - A student.
