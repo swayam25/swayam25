@@ -1,8 +1,16 @@
 <div align="center">
-
-# Hi 👋🏻, I'm Swayam
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=swayam25&text_color=F8FAFC&show_icons=true&icon_color=00FFFF&ring_color=00FFFF&hide_title=true&hide_border=true&border_radius=15&bg_color=60,0F172A,020617,020617&rank_icon=github&card_width=500px&show=reviews,prs_merged,prs_merged_percentage)
-![GitHub Streak](https://streak-stats.demolab.com/?user=swayam25&currStreakNum=F8FAFC&&stroke=CBD5E1&sideNums=00FFFF&sideLabels=F8FAFC&dates=CBD5E1&currStreakLabel=00FFFF&ring=00FFFF&fire=00FFFF&hide_border=true&border_radius=15&background=60,0F172A,020617,020617&card_width=500px)
-
+    <img src="./assets/banner.png" alt="Banner" />
 </div>
+
+<br />
+
+# Hi <img src="./assets/wave.png" alt="Wave" width="30" />, I'm Swayam
+
+I love to build cool stuffs on the internet!
+
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=swayam25&bg_color=090E1E&hide_border=true&border_radius=16&hide_title=true&text_color=E2E8F0&icon_color=74C7EC&ring_color=74C7EC&show_icons=true&rank_icon=github&show=reviews" alt="GitHub Stats" width="49%" />
+    <img src="https://streak-stats.demolab.com/?user=swayam25&background=090E1E&hide_border=true&border_radius=16&currStreakNum=E2E8F0&sideNums=74C7EC&sideLabels=E2E8F0&dates=B4BAC4&stroke=B4BAC4&currStreakLabel=F9E2AF&ring=F9E2AF&fire=F9E2AF" alt="GitHub Streak" width="49%" />
+</div>
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=swayam25&bg_color=090E1E&hide_border=true&radius=16&hide_title=true&color=E2E8F0&title_color=74C7EC&line=74C7EC&point=E2E8F0&area_color=74C7EC&area=true)
