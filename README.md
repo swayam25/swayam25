@@ -1,9 +1,3 @@
-<div align="center">
-    <img src="./assets/banner.png" alt="Banner" />
-</div>
-
-<br />
-
 # Hi <img src="./assets/wave.png" alt="Wave" width="30" />, I'm Swayam
 
 I love to build cool stuffs on the internet!
