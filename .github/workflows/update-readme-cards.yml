@@ -1,0 +1,47 @@
+name: Update README Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Daily at 00:00 UTC
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-readme-cards.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Ensure output directory exists
+        run: mkdir -p assets/cards
+
+      - name: Generate GitHub Stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&bg_color=090E1E&hide_border=true&border_radius=16&hide_title=true&text_color=E2E8F0&icon_color=74C7EC&ring_color=74C7EC&show_icons=true&rank_icon=github&show=reviews
+          path: assets/cards/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate GitHub Streak card
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          options: user=${{ github.repository_owner }}&background=090E1E&hide_border=true&border_radius=16&currStreakNum=E2E8F0&sideNums=74C7EC&sideLabels=E2E8F0&dates=B4BAC4&stroke=B4BAC4&currStreakLabel=F9E2AF&ring=F9E2AF&fire=F9E2AF
+          path: assets/cards/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cards/*.svg
+          git diff --staged --quiet || git commit -m "Update README cards"
+          git push
